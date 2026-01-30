@@ -9,9 +9,19 @@ return {
 			require("mason").setup()
 			require("mason-lspconfig").setup({
 				ensure_installed = {
-					"tailwindcss-language-server",
-					"html-lsp"
+          -- Frontend essentials
+          "ts_ls",
+					"html",
+					"cssls",
+          "tailwindcss",
 
+          -- Systems programming
+          "rust_analyzer",
+          "clangd",
+
+          -- Config files
+          "lua_ls",
+          "jsonls"
 				},
 				automatic_installation = true,
 			})
