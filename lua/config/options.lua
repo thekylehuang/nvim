@@ -17,3 +17,6 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt_local.softtabstop = 4
   end,
 })
+
+-- Make yank use system clipboard
+vim.opt.clipboard = "unnamedplus"
