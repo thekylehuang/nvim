@@ -20,3 +20,9 @@ vim.api.nvim_create_autocmd("FileType", {
 
 -- Make yank use system clipboard
 vim.opt.clipboard = "unnamedplus"
+
+-- Remove end of buffer highlight
+vim.opt.fillchars = { eob = " " }
+
+-- Remove sign column
+vim.diagnostic.config({virtual_text = true, signs = false})
