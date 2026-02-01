@@ -13,10 +13,10 @@ return {
 ]]
 
       -- Set dashboard colors
-      vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#D79921", bold = true })
-      vim.api.nvim_set_hl(0, "DashboardDesc", { fg = "#FBF1C7" })
-      vim.api.nvim_set_hl(0, "DashboardKey", { fg = "#FF4A33" })
-      vim.api.nvim_set_hl(0, "DashboardFooter", { fg = "#D65D0E", italic = true })
+      vim.api.nvim_set_hl(0, "DashboardHeader", { fg = "#2D9969", bold = true })
+      vim.api.nvim_set_hl(0, "DashboardDesc", { fg = "#F2E6CF" })
+      vim.api.nvim_set_hl(0, "DashboardKey", { fg = "#CC5D4B" })
+      vim.api.nvim_set_hl(0, "DashboardFooter", { fg = "#66CC69", italic = true })
 
       require("dashboard").setup {
         theme = "doom",

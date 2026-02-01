@@ -26,3 +26,7 @@ vim.opt.fillchars = { eob = " " }
 
 -- Remove sign column
 vim.diagnostic.config({virtual_text = true, signs = false})
+
+-- Enable line softwrap
+vim.opt.wrap = true
+vim.opt.linebreak = true
